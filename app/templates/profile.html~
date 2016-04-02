@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+
+{% block js %}
+{% endblock %}
+
+
+{% block main %}
+
+<div id="profile-pic">
+         <img style="margin-top:10px; margin-left:10px;" src="https://scontent-atl3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/11391207_1001898293163046_457188665426649314_n.jpg?oh=0d5f0bc3d8c5b98939efebcd7b3d55e9&oe=577F7440" height="150" width="150">
+    </div>
+    <p style="margin-top:-150px; margin-left:175px; border: 1px solid green; float:left; padding: 3px; padding-right: 200px ; background-color:#ADE3E2;">Quewayne Grant</p>
+    <p style=" margin-top:-100px; margin-left:175px; border: 1px solid green; float:left; padding: 3px; padding-left: 30px ; padding-right: 30px ; background-color:#ADE3E2; text-align:center;">Today is: {{timeinf}}</p>
+<div class="container">
+	
+  <table style="text-align:left; width: 283px; margin-top:-70px; margin-left:95px; border: 1px solid green; padding-left: 150px ; padding-right: 150px ; background-color:#ADE3E2; ">
+    
+    <tbody>
+    <tr>
+        <td>User Name: cooze</td>
+      </tr>
+      <tr>
+        <td>ID: 620064846</td>
+      </tr>
+    <tr>
+        <td>Sex: M</td>
+      </tr>
+    <tr>
+        <td>Age: 21</td>
+      </tr>
+      <tr>
+        <td>Highest Score: 99999999</td>
+      </tr>
+      <tr>
+        <td>TDollars: 10000000</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+{% endblock %}

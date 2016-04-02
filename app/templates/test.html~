@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block js %}
+{% endblock %}
+
+
+{% block main %}
+{% for image in images %}
+<ul>
+	{{image|safe}}
+	{% endfor %}
+	
+	</ul>
+{% endblock %}
